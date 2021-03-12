@@ -1,0 +1,7 @@
+@import "./myBooking.skeleton.wxss";
+.not_booking{
+  font-size: 28rpx;
+  text-align: center;
+  margin-top: 100rpx;
+  color: #999;
+}

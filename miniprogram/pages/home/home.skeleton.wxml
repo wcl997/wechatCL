@@ -1,0 +1,90 @@
+<!--
+此文件为开发者工具生成，生成时间: 2021/3/2 下午1:15:48
+使用方法：
+在 D:\老k\bkapp\miniprogram\pages\home\home.wxml 引入模板
+
+```
+<import src="home.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 D:\老k\bkapp\miniprogram\pages\home\home.wxss 中引入样式
+```
+@import "./home.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="home">
+      <view class="home_bg">
+        <view class="jieyu_box">
+          <view class="jieyu">
+            <view class="jieyu_title sk-transparent sk-text-14-2857-875 sk-text" style="background-position-x: 50%;">本月结余</view>
+            <view class="jieyu_money sk-transparent">132132321.
+              <text class="decimal sk-transparent sk-text-14-2857-762 sk-text" style="background-position-x: 50%;">00</text>
+            </view>
+          </view>
+        </view>
+        <view class="zs">
+          <view class="zs_item">
+            <view class="zs_item_content">
+              <view class="jieyu_title sk-transparent sk-text-14-2857-12 sk-text" style="background-position-x: 50%;">本月收入</view>
+              <view class="money sk-transparent">13216351.
+                <text class="sub_decimal sk-transparent sk-text-14-2857-113 sk-text" style="background-position-x: 50%;">00</text>
+              </view>
+            </view>
+          </view>
+          <view class="zs_item">
+            <view class="zs_item_content">
+              <view class="jieyu_title sk-transparent sk-text-14-2857-269 sk-text" style="background-position-x: 50%;">本月支出</view>
+              <view class="money sk-transparent">13216351.
+                <text class="sub_decimal sk-transparent sk-text-14-2857-280 sk-text" style="background-position-x: 50%;">00</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="book_box">
+        <view class="book_box_nav">
+          <view class="nav_content">
+            <view class="nav_date sk-transparent sk-text-35-0000-829 sk-text">5月1日</view>
+            <view class="b1 sk-transparent sk-text-35-0000-854 sk-text">收入:1,200.00</view>
+            <view class="b1 sk-transparent sk-text-35-0000-507 sk-text">支出:1,000.00</view>
+          </view>
+          <view class="select_box">
+            <view class="point"></view>
+            <view class="point"></view>
+            <view class="point"></view>
+            <view class="picker_box sk-transparent sk-text-14-2857-147 sk-text sk-image" end="2021-03-10" mode="date" start="2021-03-01">当前选择
+            </view>
+          </view>
+        </view>
+      </view>
+      <view>
+        <view is="components/booking-item/booking-item">
+          <view class="item--booking_item">
+            <view class="item--booking_item_icon">
+              <image class="item--auto-img sk-image" mode="widthFix"></image>
+            </view>
+            <view class="item--booking_item_info">
+              <view class="item--info_box">
+                <view class="item--info_box_content">
+                  <view class="item--title sk-transparent sk-text-14-2857-866 sk-text">餐饮</view>
+                  <view class="item--account sk-transparent sk-text-23-6842-733 sk-text">微信支付</view>
+                  <view class="item--date sk-transparent sk-text-23-6842-418 sk-text">2021-3-2</view>
+                </view>
+                <view class="item--comment sk-transparent sk-text-14-2857-552 sk-text">备注信息</view>
+              </view>
+              <view class="item--booking_item_right">
+                <view class="item--booking_item_price sk-transparent sk-text-14-2857-796 sk-text">¥120.36</view>
+                <view class="item--delete"></view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

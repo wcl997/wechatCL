@@ -1,0 +1,14 @@
+page{
+  background-color: #f7f7f7;
+  color: #444;
+}
+
+.auto-img{
+  display: block;
+  width: 100%;
+}
+
+.one-text{
+  white-space: nowrap;
+  
+}

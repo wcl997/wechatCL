@@ -1,0 +1,19 @@
+<view class="my">
+  <view class="user_bg">
+    <view class="user_info" wx:if="{{isAuth}}">
+      <view class="avatar">
+        <image class="auto-img avatar_img" src="{{userInfoData.avatarUrl}}" mode="widthFix"></image>
+      </view>
+      <view class="nickname">{{userInfoData.nickName}}</view>
+    </view>
+    <button open-type="getUserInfo" bindgetuserinfo="getuserAuthInfo" wx:else>获取头像</button>
+
+  </view>
+
+  <view class="list">
+    <view class="my_list_item">
+      <list-item title="我的记账" bindClickListItem="viewMyBooking"></list-item>
+    </view>
+  </view>
+
+</view>

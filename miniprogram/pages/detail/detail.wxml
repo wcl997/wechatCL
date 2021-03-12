@@ -1,0 +1,7 @@
+<import src="detail.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+<view>
+  <view>
+    <booking-item wx:for="{{bookingData}}" wx:key="index" booking-data="{{item}}" bindremove="removeBooking" data-index="{{index}}"></booking-item>
+  </view>
+</view>
